@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .main-title{
@@ -98,7 +99,7 @@
 
 .search__input::-webkit-input-placeholder {
   font-weight: 100;
-  color: #ccc;
+  color: #4d4d4d;
 }
 
 .search__input:focus + .search__button {
