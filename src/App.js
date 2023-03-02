@@ -18,6 +18,7 @@ function App() {
   const [city, setCity] = useState('');
   const [weatherForecast, setWeatherForecast] = useState(null)
   const [isLoading, setIsLoading] = useState(false);
+  const [erro, setErro] = useState(null)
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -29,15 +30,18 @@ function App() {
   }
 
   const handleSearch = () => {
-    setIsLoading(true);
+    setIsLoading(true)
     axios.get(`http://api.weatherapi.com/v1/current.json?key=99cf1786d28a411e902163354230103&q=${city}&lang=pt`)
     .then(resposta => {
     setWeatherForecast(resposta.data)
+    
     console.log(resposta.data)
-    setIsLoading(false);
+    setIsLoading(false)
   })
     .catch(erro => {
       console.log(erro)
+      alert('Desculpe, houve algum problema.')
+      setIsLoading(false)
     })
   }
 
