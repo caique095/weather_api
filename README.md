@@ -12,3 +12,8 @@
 ![WF](https://user-images.githubusercontent.com/101210878/222526616-ce67d3f0-252d-4fa4-9403-d160f3a567d9.png)
 
 Com uma interface moderna, intuitiva e responsiva que torna a experiência de usar o app tão agradável quanto confiável.
+
+
+<h1> Link do projeto: </h2>
+<p> Caso queira dar uma olhada no projeto, clique no link abaixo </p>
+https://weather-api-zeta-pied.vercel.app/
