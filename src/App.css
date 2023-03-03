@@ -142,7 +142,7 @@
   }
 
   .weatherForecast, .search__input {
-    width: 40vw;
+    width: 29rem;
   }
 
   .search__input::placeholder {
