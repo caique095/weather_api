@@ -31,7 +31,7 @@ function App() {
 
   const handleSearch = () => {
     setIsLoading(true)
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=99cf1786d28a411e902163354230103&q=${city}&lang=pt`)
+    axios.get(`https://api.weatherapi.com/v1/current.json?key=99cf1786d28a411e902163354230103&q=${city}&lang=pt`)
     .then(resposta => {
     setWeatherForecast(resposta.data)
     
